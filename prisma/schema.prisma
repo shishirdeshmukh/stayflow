@@ -1,0 +1,180 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Enums ────────────────────────────────────────────────────
+
+enum Role {
+  GUEST
+  HOST
+  ADMIN
+}
+
+enum BookingStatus {
+  PENDING
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}
+
+enum PaymentStatus {
+  INITIATED
+  SUCCESS
+  FAILED
+  REFUNDED
+}
+
+// ─── Models ───────────────────────────────────────────────────
+
+model User {
+  id            String    @id @default(uuid())
+  name          String
+  email         String    @unique
+  passwordHash  String
+  role          Role      @default(GUEST)
+  avatar        String?
+  phone         String?
+  isVerified    Boolean   @default(false)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  properties    Property[]
+  bookings      Booking[]
+  reviews       Review[]
+  wishlists     Wishlist[]
+
+  @@map("users")
+}
+
+model Property {
+  id             String    @id @default(uuid())
+  hostId         String
+  title          String
+  description    String
+  pricePerNight  Decimal   @db.Decimal(10, 2)
+  maxGuests      Int
+  bedrooms       Int
+  bathrooms      Int
+  address        String
+  city           String
+  country        String
+  lat            Float?
+  lng            Float?
+  isAvailable    Boolean   @default(true)
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  // Relations
+  host           User               @relation(fields: [hostId], references: [id], onDelete: Cascade)
+  images         PropertyImage[]
+  amenities      PropertyAmenity[]
+  bookings       Booking[]
+  reviews        Review[]
+  wishlists      Wishlist[]
+
+  @@map("properties")
+}
+
+model PropertyImage {
+  id          String    @id @default(uuid())
+  propertyId  String
+  url         String
+  isPrimary   Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+
+  property    Property  @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+
+  @@map("property_images")
+}
+
+model Amenity {
+  id          String            @id @default(uuid())
+  name        String            @unique
+  icon        String?
+
+  properties  PropertyAmenity[]
+
+  @@map("amenities")
+}
+
+model PropertyAmenity {
+  propertyId  String
+  amenityId   String
+
+  property    Property  @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  amenity     Amenity   @relation(fields: [amenityId], references: [id], onDelete: Cascade)
+
+  @@id([propertyId, amenityId])
+  @@map("property_amenities")
+}
+
+model Booking {
+  id          String        @id @default(uuid())
+  propertyId  String
+  guestId     String
+  checkIn     DateTime
+  checkOut    DateTime
+  totalPrice  Decimal       @db.Decimal(10, 2)
+  status      BookingStatus @default(PENDING)
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  // Relations
+  property    Property      @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  guest       User          @relation(fields: [guestId], references: [id], onDelete: Cascade)
+  payment     Payment?
+  review      Review?
+
+  @@map("bookings")
+}
+
+model Payment {
+  id                 String        @id @default(uuid())
+  bookingId          String        @unique
+  amount             Decimal       @db.Decimal(10, 2)
+  currency           String        @default("INR")
+  gatewayOrderId     String?
+  gatewayPaymentId   String?
+  status             PaymentStatus @default(INITIATED)
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+
+  booking            Booking       @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+
+  @@map("payments")
+}
+
+model Review {
+  id          String    @id @default(uuid())
+  propertyId  String
+  guestId     String
+  bookingId   String    @unique
+  rating      Int
+  comment     String?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  property    Property  @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  guest       User      @relation(fields: [guestId], references: [id], onDelete: Cascade)
+  booking     Booking   @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+
+  @@map("reviews")
+}
+
+model Wishlist {
+  id          String    @id @default(uuid())
+  userId      String
+  propertyId  String
+  createdAt   DateTime  @default(now())
+
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  property    Property  @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, propertyId])
+  @@map("wishlists")
+}

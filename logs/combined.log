@@ -1,0 +1,192 @@
+2026-03-12 19:18:24 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-12 19:18:24 [[32minfo[39m]: 📖 Environment: development
+2026-03-12 19:18:24 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-12 19:18:27 [[32minfo[39m]: [0mGET /api/health [32m200[0m 5.984 ms - 119[0m
+2026-03-12 19:18:28 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 2.135 ms - 150[0m
+2026-03-13 14:47:58 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 14:47:58 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 14:47:58 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 14:48:03 [[32minfo[39m]: [0mGET /api/health [32m200[0m 4.809 ms - 119[0m
+2026-03-13 14:48:04 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 2.475 ms - 150[0m
+2026-03-13 16:35:39 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:35:39 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:35:39 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:41:11 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:41:11 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:41:11 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:41:39 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:41:39 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:41:39 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:41:43 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:41:43 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:41:43 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:41:50 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:41:50 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:41:50 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:41:55 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:41:55 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:41:55 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:04 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:04 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:04 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:11 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:11 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:11 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:13 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:13 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:13 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:21 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:21 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:21 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:27 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:27 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:27 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:30 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:30 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:30 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:36 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:36 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:36 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:42:58 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:42:58 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:42:58 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:43:03 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:43:03 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:43:03 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:43:28 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:43:28 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:43:28 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:43:32 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:43:32 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:43:32 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:44:24 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:44:24 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:44:24 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:45:25 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:45:25 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:45:25 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:03 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:03 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:03 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:17 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:17 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:17 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:21 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:21 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:21 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:23 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:23 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:23 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:30 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:30 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:30 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:35 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:35 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:35 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:40 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:40 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:40 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:43 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:43 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:43 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:50 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:50 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:50 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:52 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:52 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:52 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:46:56 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:46:56 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:46:56 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-03-13 16:47:12 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-03-13 16:47:12 [[32minfo[39m]: 📖 Environment: development
+2026-03-13 16:47:12 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:19:45 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:19:45 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:19:45 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:19:48 [[32minfo[39m]: [0mGET /api/health [32m200[0m 5.270 ms - 119[0m
+2026-04-06 17:19:49 [[32minfo[39m]: [0mGET /favicon.ico [33m404[0m 3.405 ms - 150[0m
+2026-04-06 17:35:03 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:35:03 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:35:03 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:35:09 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:35:09 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:35:09 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:35:14 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:35:14 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:35:14 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:51:52 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:51:52 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:51:52 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:51:56 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:51:56 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:51:56 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:52:26 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:52:26 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:52:26 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:52:49 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:52:49 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:52:49 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:52:58 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:52:58 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:52:58 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 17:53:16 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 17:53:16 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 17:53:16 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:00:14 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:00:14 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:00:14 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:00:26 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:00:26 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:00:26 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:00:29 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:00:29 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:00:29 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:00:32 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:00:32 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:00:32 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:00:46 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:00:46 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:00:46 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:01:59 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:01:59 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:01:59 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:05:52 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:05:52 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:05:52 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:06:14 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:06:14 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:06:14 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:06:22 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:06:22 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:06:22 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:06:50 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:06:50 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:06:50 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:06:55 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:06:55 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:06:55 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:07:31 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:07:31 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:07:31 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:07:49 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:07:49 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:07:49 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:07:55 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:07:55 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:07:55 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:08:01 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:08:01 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:08:01 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:08:06 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:08:06 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:08:06 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:08:32 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:08:32 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:08:32 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:08:35 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:08:35 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:08:35 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
+2026-04-06 18:08:38 [[32minfo[39m]: 🚀 StayFlow server running on port 5000
+2026-04-06 18:08:38 [[32minfo[39m]: 📖 Environment: development
+2026-04-06 18:08:38 [[32minfo[39m]: 🏥 Health check: http://localhost:5000/api/health
