@@ -6,6 +6,7 @@ import cookieParser from "cookie-parser";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import logger from "./utils/logger";
 import { HTTP_STATUS } from "./constants.ts/http.constants";
+import authRouter from "./modules/auth/auth.route";
 
 const app: Application = express();
 
@@ -43,7 +44,7 @@ app.get("/api/health", (req: Request, res: Response) => {
 });
 
 // ─── Routes will be added here as we build ────────────────────
-// app.use("/api/auth", authRouter);
+app.use("/api/auth", authRouter);
 // app.use("/api/users", userRouter);
 // app.use("/api/properties", propertyRouter);
 
