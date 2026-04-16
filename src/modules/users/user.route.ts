@@ -6,13 +6,13 @@ import { updateProfileSchema } from "./user.schema";
 
 const router = Router();
 
-// GET /api/users/me — login hona chahiye
+// GET /api/users/me
 router.get("/me", authenticate, UserController.getMe);
 
-// PATCH /api/users/me — login hona chahiye + validate
+// PATCH /api/users/me
 router.patch("/me", authenticate, validate(updateProfileSchema), UserController.updateMe);
 
-// GET /api/users/:id — public route — koi bhi host profile dekh sakta hai
+// GET /api/users/:id
 router.get("/:id", UserController.getHostProfile);
 
 export default router;

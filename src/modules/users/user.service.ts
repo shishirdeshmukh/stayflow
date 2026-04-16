@@ -15,7 +15,7 @@ export const getMyProfile = async (userId: string) => {
 };
 
 export const updateMyProfile = async (userId: string, data: UpdateProfileInput) => {
-    // Pehle check karo user exist karta hai
+    //check user exist
     const user = await UserRepository.findUserById(userId);
 
     if (!user) {

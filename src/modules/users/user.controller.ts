@@ -8,7 +8,6 @@ import { HTTP_STATUS } from "../../constants.ts/http.constants";
 import { MESSAGES } from "../../constants.ts/messages";
 
 export const getMe = asyncHandler(async (req: Request, res: Response) => {
-    // req.user authenticate middleware ne set kiya tha
     const user = await UserService.getMyProfile(req.user!.id);
 
     res.status(HTTP_STATUS.OK).json(new ApiResponse(HTTP_STATUS.OK, MESSAGES.USER.FETCHED, user));
