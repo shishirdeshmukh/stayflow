@@ -8,7 +8,7 @@ import logger from "./utils/logger";
 import { HTTP_STATUS } from "./constants.ts/http.constants";
 import authRouter from "./modules/auth/auth.route";
 import userRouter from "./modules/users/user.route";
-
+import propertyRouter from "./modules/properties/property.route";
 const app: Application = express();
 
 // ─── Security Middlewares ─────────────────────────────────────
@@ -47,7 +47,7 @@ app.get("/api/health", (req: Request, res: Response) => {
 // ─── Routes will be added here as we build ────────────────────
 app.use("/api/auth", authRouter);
 app.use("/api/users", userRouter);
-// app.use("/api/properties", propertyRouter);
+app.use("/api/properties", propertyRouter);
 
 // ─── Global Error Handler (must be last) ──────────────────────
 app.use(errorMiddleware);
