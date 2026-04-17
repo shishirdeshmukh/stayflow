@@ -1,11 +1,11 @@
-import { Request, Response, NextFunction } from "express";
+import { Request, Response } from "express";
 import { ApiError } from "../utils/ApiError";
 import { ApiResponse } from "../utils/ApiResponse";
 import logger from "../utils/logger";
 import { HTTP_STATUS } from "../constants/http.constants";
 import { MESSAGES } from "../constants/messages";
 
-export const errorMiddleware = (err: Error, req: Request, res: Response, next: NextFunction): void => {
+export const errorMiddleware = (err: Error, req: Request, res: Response): void => {
     // Log every error with full stack trace
     logger.error(err);
 
