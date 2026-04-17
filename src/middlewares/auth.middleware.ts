@@ -2,8 +2,8 @@ import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import { ApiError } from "../utils/ApiError";
 import { Role } from "@prisma/client";
-import { HTTP_STATUS } from "../constants.ts/http.constants";
-import { MESSAGES } from "../constants.ts/messages";
+import { HTTP_STATUS } from "../constants/http.constants";
+import { MESSAGES } from "../constants/messages";
 import { TokenPayload } from "../modules/auth/auth.service";
 
 // ─── Authentication ───────────────────────────────────────────

@@ -2,8 +2,8 @@ import { ApiError } from "../../utils/ApiError";
 
 import { CreatePropertyInput, UpdatePropertyInput, PropertyQueryInput } from "./property.schema";
 import * as PropertyRepository from "./property.repository";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 
 export const createProperty = async (hostId: string, data: CreatePropertyInput) => {
     const property = await PropertyRepository.createProperty(hostId, data);

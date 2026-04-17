@@ -4,8 +4,8 @@ import prisma from "../../config/database";
 import { ApiError } from "../../utils/ApiError";
 import { RegisterInput, LoginInput } from "./auth.schema";
 import { Role } from "@prisma/client";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 
 // ─── Token Helpers ────────────────────────────────────────────
 

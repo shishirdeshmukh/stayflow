@@ -4,8 +4,8 @@ import { ApiResponse } from "../../utils/ApiResponse";
 
 import { CreatePropertyInput, UpdatePropertyInput, propertyQuerySchema } from "./property.schema";
 import * as PropertyService from "./property.service";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 
 export const createProperty = asyncHandler(async (req: Request, res: Response) => {
     const data = req.body as CreatePropertyInput;

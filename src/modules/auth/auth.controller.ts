@@ -1,11 +1,11 @@
 import { Request, Response } from "express";
 import { asyncHandler } from "../../utils/asyncHandler";
 import { ApiResponse } from "../../utils/ApiResponse";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 import * as AuthService from "./auth.service";
 import { RegisterInput, LoginInput } from "./auth.schema";
-import { REFRESH_TOKEN_COOKIE_OPTIONS } from "../../utils/constant";
+import { REFRESH_TOKEN_COOKIE_OPTIONS } from "../../constants/cookie.constant";
 
 export const register = asyncHandler(async (req: Request, res: Response) => {
     const data = req.body as RegisterInput;

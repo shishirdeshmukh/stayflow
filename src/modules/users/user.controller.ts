@@ -4,8 +4,8 @@ import { ApiResponse } from "../../utils/ApiResponse";
 
 import { UpdateProfileInput } from "./user.schema";
 import * as UserService from "./user.service";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 
 export const getMe = asyncHandler(async (req: Request, res: Response) => {
     const user = await UserService.getMyProfile(req.user!.id);

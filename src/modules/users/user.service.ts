@@ -1,8 +1,8 @@
 import { ApiError } from "../../utils/ApiError";
 import { UpdateProfileInput } from "./user.schema";
 import * as UserRepository from "./user.repository";
-import { HTTP_STATUS } from "../../constants.ts/http.constants";
-import { MESSAGES } from "../../constants.ts/messages";
+import { HTTP_STATUS } from "../../constants/http.constants";
+import { MESSAGES } from "../../constants/messages";
 
 export const getMyProfile = async (userId: string) => {
     const user = await UserRepository.findUserById(userId);

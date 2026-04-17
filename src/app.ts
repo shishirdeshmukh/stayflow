@@ -5,7 +5,7 @@ import morgan from "morgan";
 import cookieParser from "cookie-parser";
 import { errorMiddleware } from "./middlewares/error.middleware";
 import logger from "./utils/logger";
-import { HTTP_STATUS } from "./constants.ts/http.constants";
+import { HTTP_STATUS } from "./constants/http.constants";
 import authRouter from "./modules/auth/auth.route";
 import userRouter from "./modules/users/user.route";
 import propertyRouter from "./modules/properties/property.route";
