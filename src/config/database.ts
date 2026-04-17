@@ -28,8 +28,8 @@ const createPrismaClient = () => {
         });
     }
 
-    client.$on("error", (e: Error) => {
-        logger.error(`Prisma Error - ${e.name}: ${e.message}`);
+    client.$on("error", (e: any) => {
+        logger.error(`Prisma Error: ${e.message}`);
     });
 
     return client;
